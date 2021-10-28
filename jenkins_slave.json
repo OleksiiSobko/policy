@@ -48,7 +48,7 @@
         "dynamodb:*",
         "dax:*",
         "ec2:*",
-        "ecr:GetAuthorizationToken",
+        "ecr:*",
         "elasticbeanstalk:DescribeEnvironments",
         "elasticloadbalancing:*",
         "iam:GetRole",
