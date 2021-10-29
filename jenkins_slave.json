@@ -35,6 +35,7 @@
         "iam:ListRoles",
         "iam:PassRole",
         "iam:CreateInstanceProfile",
+        "iam:RemoveRoleFromInstanceProfile",
         "kms:DescribeKey",
         "kms:ListAliases",
         "s3:*",
