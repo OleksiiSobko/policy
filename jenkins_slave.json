@@ -30,6 +30,7 @@
         "dax:*",
         "ec2:*",
         "ecr:*",
+        "rds:*",
         "elasticloadbalancing:*",
         "iam:GetRole",
         "iam:ListRoles",
