@@ -23,6 +23,8 @@
     {
       "Action": [
         "autoscaling:*",
+        "application-autoscaling:DeregisterScalableTarget",
+        "application-autoscaling:DescribeScalingPolicies",
         "cloudfront:GetDistribution",
         "cloudfront:ListDistributions",
         "cloudformation:*",
