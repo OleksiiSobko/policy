@@ -23,6 +23,7 @@
     {
       "Action": [
         "autoscaling:*",
+        "cloudfront:GetDistribution",
         "cloudfront:ListDistributions",
         "cloudformation:*",
         "cloudwatch:*",
