@@ -63,6 +63,7 @@
         "sns:Subscribe",
         "sns:Unsubscribe",
         "sns:SetTopicAttributes",
+        "sts:DecodeAuthorizationMessage",
         "lambda:CreateFunction",
         "lambda:ListFunctions",
         "lambda:ListEventSourceMappings",
