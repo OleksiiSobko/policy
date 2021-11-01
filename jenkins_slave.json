@@ -34,6 +34,7 @@
         "elasticloadbalancing:*",
         "iam:AddRoleToInstanceProfile",
         "iam:GetRole",
+        "iam:GetInstanceProfile",
         "iam:ListRoles",
         "iam:PassRole",
         "iam:CreateInstanceProfile",
