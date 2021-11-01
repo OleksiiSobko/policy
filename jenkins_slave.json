@@ -81,15 +81,7 @@
     {
       "Effect": "Allow",
       "Action": "sts:AssumeRole",
-      "Resource": "*",
-      "Condition": {
-        "StringEquals": {
-          "sts:SourceIdentity": [
-            "pulumi-instance-profile-service-jenkins-slave-role",
-            "cross-social-lab-social-jenkins-slave-r53"
-          ]
-        }
-      }
+      "Resource": "arn:aws:iam::306263395060:role/pulumi-instance-profile-service-jenkins-slave-role"
     }
   ]
 }
