@@ -23,6 +23,7 @@
     {
       "Action": [
         "autoscaling:*",
+        "sts:AssumeRole",
         "application-autoscaling:DeregisterScalableTarget",
         "application-autoscaling:DescribeScalingPolicies",
         "cloudfront:GetDistribution",
@@ -77,11 +78,6 @@
       ],
       "Effect": "Allow",
       "Resource": "*"
-    },
-    {
-      "Effect": "Allow",
-      "Action": "sts:AssumeRole",
-      "Resource": "arn:aws:iam::306263395060:role/pulumi-instance-profile-service-jenkins-slave-role"
     }
   ]
 }
