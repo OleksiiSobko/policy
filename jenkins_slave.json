@@ -32,6 +32,7 @@
         "dynamodb:*",
         "dax:*",
         "ec2:*",
+        "ecr:GetAuthorizationToken",
         "ecr:*",
         "rds:*",
         "elasticloadbalancing:*",
