@@ -23,7 +23,6 @@
     {
       "Action": [
         "autoscaling:*",
-        "sts:AssumeRole",
         "application-autoscaling:DeregisterScalableTarget",
         "application-autoscaling:DescribeScalingPolicies",
         "cloudfront:GetDistribution",
@@ -78,6 +77,18 @@
       ],
       "Effect": "Allow",
       "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": [
+          "arn:aws:iam::306263395060:role/pulumi-instance-profile-service-social-jenkins-slave",
+          "arn:aws:iam::306263395060:role/pulumi-instance-profile-service-jenkins-slave-role",
+          "arn:aws:iam::668139184987:role/cross-social-lab-social-jenkins-slave-r53"
+        ]
+      },
+      "Action": "sts:AssumeRole",
+      "Condition": {}
     }
   ]
 }
