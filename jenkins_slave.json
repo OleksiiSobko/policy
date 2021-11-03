@@ -27,6 +27,7 @@
         "application-autoscaling:DescribeScalingPolicies",
         "cloudfront:GetDistribution",
         "cloudfront:ListDistributions",
+        "cloudfront:CreateInvalidation",
         "cloudformation:*",
         "cloudwatch:*",
         "dynamodb:*",
