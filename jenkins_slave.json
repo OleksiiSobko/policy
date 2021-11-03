@@ -27,7 +27,6 @@
         "application-autoscaling:DescribeScalingPolicies",
         "cloudfront:GetDistribution",
         "cloudfront:ListDistributions",
-        "cloudformation:DescribeStackResource",
         "cloudformation:*",
         "cloudwatch:*",
         "dynamodb:*",
