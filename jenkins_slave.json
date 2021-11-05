@@ -25,6 +25,7 @@
         "autoscaling:*",
         "application-autoscaling:DeregisterScalableTarget",
         "application-autoscaling:DescribeScalingPolicies",
+        "application-autoscaling:DeleteScalingPolicy",
         "cloudfront:GetDistribution",
         "cloudfront:ListDistributions",
         "cloudfront:CreateInvalidation",
